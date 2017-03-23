@@ -115,7 +115,11 @@ namespace ChargifyNET
         /// <summary>
         /// The 'unknown' subscription state, only internal to this wrapper
         /// </summary>
-        Unknown = -1
+        Unknown = -1,
+
+        // https://github.com/GoToTags/EncoderApp3/issues/246
+        On_Hold,
+
     }
 
     /// <summary>
