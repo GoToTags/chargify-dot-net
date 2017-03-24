@@ -64,6 +64,8 @@ namespace ChargifyNET
     /// </summary>
     public enum SubscriptionState
     {
+        // https://github.com/GoToTags/EncoderApp3/issues/246
+        On_Hold,
         /// <summary>
         /// A trialing subscription is valid, and may transition to 'active' once the trial is ended and payment is recieved.
         /// </summary>
@@ -117,8 +119,7 @@ namespace ChargifyNET
         /// </summary>
         Unknown = -1,
 
-        // https://github.com/GoToTags/EncoderApp3/issues/246
-        On_Hold,
+
 
     }
 
